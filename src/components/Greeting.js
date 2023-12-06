@@ -15,7 +15,12 @@ const Greeting = () => {
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return (
+      <div>
+        Error:
+        {error}
+      </div>
+    );
   }
 
   return <div>{message}</div>;
